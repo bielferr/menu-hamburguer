@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color: white;
+     text-align: center;
+     align-content: center;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 6rem;
+    line-height: 1.4;
+    font-family:"Beth Ellen" ;
+}
+
+h1 span{
+    color:#f45318;
+}
+ 
+
+p{
+    font-size: 1.25rem;
+    margin-bottom: 4.5rem;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    color: white;
+    background-color:#ee5720; 
+    text-decoration: nome;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    transition: background-color 600ms;
+}
+
+a:hover{
+    background-color:#ff4400 ;
+}
+
+#bg-image {
+    background-image:url("https://s3-alpha.figma.com/hub/file/5072521719/049fc2fe-db11-4b66-8694-147f51027752-cover.png") ;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    opacity: 0.4;
+   
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+}
+
+@media (width < 40rem) {
+    html{
+        font-size: 70%;
+    }
+}
+h1, p, a {
+    animation: appear 1s backwards;
+}
+
+h1{
+    animation-delay: 0.2s;
+}
+
+p{
+    animation-delay: 0.8s;
+}
+
+a{
+    animation-delay: 1.7s;
+}
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+ 
+}
