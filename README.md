@@ -1,1 +1,1 @@
-projeto usando html e sss para mostrar minhas habilidades com linguagens de texto
+projeto usando html e Css para mostrar minhas habilidades com linguagens de texto
